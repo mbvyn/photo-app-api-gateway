@@ -1,4 +1,4 @@
-package com.mbvyn.photoapp.api.gateway;
+package com.mbvyn.photoapp.api.gateway.filters;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.filter.GatewayFilter;
@@ -25,9 +25,7 @@ public class AuthorizationHeaderFilter extends AbstractGatewayFilterFactory<Auth
 		super(Config.class);
 	}
 
-	public static class Config {
-
-	}
+	public static class Config {}
 
 	@Override
 	public GatewayFilter apply(Config config) {

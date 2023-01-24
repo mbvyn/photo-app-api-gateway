@@ -1,4 +1,4 @@
-package com.mbvyn.photoapp.api.gateway;
+package com.mbvyn.photoapp.api.gateway.filters.prefilters;
 
 import java.util.Set;
 

@@ -1,4 +1,4 @@
-package com.mbvyn.photoapp.api.gateway;
+package com.mbvyn.photoapp.api.gateway.filters.postfilters;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
